@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Hottel</title>
+    <link rel='stylesheet' type='text/css' href='css/app.css'>
+    <link rel='stylesheet' type='text/css' href='css/all.css'>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/styleslick.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.min.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div id="conntact">
+                <ul>
+                    <li>
+                        +44 00 123 4567
+                    </li>
+                    <li>
+                        <a href="#">mail@psdfreebies.com</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div id="home">
+                <h1>
+                    <a href="index.html">Your<span>Hotel</span><br>
+                    <small>TAGLINE HERE</small>
+                    </a>
+                </h1>
+                <nav id="main-nav">
+                        <ul>
+                            <li>
+                                <a href="index.html">Начало</a>
+                            </li>
+                            <li>
+                                <a href="rooms.html">Стаи</a>
+                            </li>
+                            <li>
+                                <a href="restorant.html">Ресторант</a>
+                            </li>
+                            <li>
+                                <a href="location.html">Локация</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Контакт</a>
+                            </li>
+                            <li onclick="myFunction()">
+                                Резервация
+                            </li>
+                        </ul>
+                    </nav>
+                    <div id="onlinereservation">
+                            <form method="GET" action="search.php">
+                                <input class="datetime" style="background-color: #fff;" type="date" name="" placeholder="Arrival Date"/>
+                                <input class="datetime" style="background-color: #fff;" type="date" name="" placeholder="Departure Date"/>
+                                <input style="background-color: #fff;" type="text" name="" placeholder="Room"/>
+                                <input style="background-color: #fff;" type="number" name="" placeholder="Number of People"/>
+                                <input  type="submit" name="" value="Cheack Availability"/>
+            
+                            </form>
+                    </div>
+            </div>
+        </div>
+        <main id="main-conntent">
+                
+            <div class="wrap">
+                <div id="arrow-left" class="arrow"></div>
+                <div id="slider">
+                    <div class="slide slide1">
+                        <div class="slide-content">
+                            
+                        </div>
+                    </div>
+                    <div class="slide slide2">
+                        <div class="slide-content">
+                            
+                        </div>
+                    </div>
+                    <div class="slide slide3">
+                        <div class="slide-content">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div id="arrow-right" class="arrow"></div>
+            </div>
+
+            <div id="container">
+                <section id="section-1">
+                    <article id="arti-1">
+                        <img src="images/calmar.jpg">
+                        <div id="more">
+                            <h2>Lorem Ipsum is simply dummy text</h2>
+                            <p>Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+                            <a href="#">+ Read more</a>
+                        </div>
+                    </article>
+                    <article id="arti-2">
+                        <h2>Hotel Overview</h2>
+                        <nav id="overview">
+                            <ul>
+                                <li>
+                                    <i class="far fa-check-circle"></i><a href="#">Perfect for Relaxing</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-check-circle"></i><a href="#">Free airport pick up/drop off service</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-check-circle"></i><a href="#">Best for dining</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-check-circle"></i><a href="#">99 luxury guest rooms</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-check-circle"></i><a href="#">Michelin star restaurant</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-check-circle"></i><a href="#">24 hour front desk staff</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </article>
+                    <article id="arti-3">
+                            <h4>Customer Says</h4>
+                            <div class="wrapp">
+                                    <div id="arroww-left" class="arroww"><img src="images/roll-left.png"></div>
+                                    <div id="sliderr">
+                                        <div class="slidee slidee1">
+                                            <div class="slidee-content">
+                                                <span>"</span><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.”</p>
+                                                <figure>
+                                                    <img src="images/nadq.jpg">
+                                                    <figcaption>Dodo Doe<br>
+                                                        Lost, USA
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="slidee slidee2">
+                                            <div class="slidee-content">
+                                                <span>"</span><p>Ut sit amet leo ac risus volutpat efficitur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla et venenatis lorem. Phasellus non augue lacinia.”</p>
+                                                <figure>
+                                                    <img src="images/nadq1.jpg">
+                                                    <figcaption>nene Doe<br>
+                                                        York, USA
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="slidee slidee3">
+                                            <div class="slidee-content">
+                                                <span>"</span><p>ac risus volutpat ac risus volutpat ac risus volutpat ac risus volutpat efficitur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ugue lacinia</p>
+                                                <figure>
+                                                    <img src="images/nadq2.jpg">
+                                                    <figcaption>Anna Doe<br>
+                                                        New York, USA
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="arroww-right" class="arroww"><img src="images/roll-right.png"></div>
+                                </div>   
+                    </article>
+                </section>
+                <section id="section-2">
+                    
+                    <img src="images/reservation.jpg" height="705">
+                    <div id="welcome">
+                    <h3>Welcome to our Hotel</h3>
+                    <p>Book your Holidays at<br>
+                            Dream Location</p>
+                    <form method="GET" action="search.php">
+                        <input class="datetime" style="background-color: #fff;" type="date" name="" placeholder="Arrival Date"/>
+                        <input class="datetime" style="background-color: #fff;" type="date" name="" placeholder="Departure Date"/>
+                        <input style="background-color: #fff;" type="text" name="" placeholder="Room"/>
+                        <input style="background-color: #fff;" type="number" name="" placeholder="Number of People"/>
+                        <input  type="submit" name="" value="Cheack Availability"/>
+
+                    </form>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                    </div>
+                    <div id="news">
+                        <h3>News</h3>
+                        <div class="wrappp">
+                                <div id="arrowww-left" class="arrowww"><img src="images/roll-left.png"></div>
+                                <div id="sliderrr">
+                                    <div class="slideee slideee1">
+                                        <div class="slideee-content">
+                                                <article>
+                                                    <a href="#">
+                                                        <figure>
+                                                            <img src="images/sity.jpg">
+                                                        </figure>
+                                                        <figcaption>
+                                                            <h5>Lorem Ipsum is simply
+                                                                    dummy text</h5>
+                                                            <p>Lorem Ipsum is simply dummy,<br>
+                                                                text</p>
+                                                        </figcaption>
+                                                    </a>
+                                                </article>
+                                                <article>
+                                                    <a href="#">
+                                                        <figure>
+                                                            <img src="images/sity.jpg">
+                                                        </figure>
+                                                        <figcaption>
+                                                            <h5>Lorem Ipsum is simply
+                                                                    dummy text</h5>
+                                                            <p>Lorem Ipsum is simply dummy,<br>
+                                                                text</p>
+                                                        </figcaption>
+                                                    </a>
+                                                </article>
+                                        </div>
+                                    </div>
+                                    <div class="slideee slideee2">
+                                        <div class="slideee-content">
+                                                <article>
+                                                    <a href="#">
+                                                        <figure>
+                                                            <img src="images/sand.jpg">
+                                                        </figure>
+                                                        <figcaption>
+                                                            <h5>dummy Ipsum is simply
+                                                                    dummy text</h5>
+                                                            <p>dummy dummy is simply dummy,<br>
+                                                                text</p>
+                                                        </figcaption>
+                                                    </a>
+                                                </article>
+                                                <article>
+                                                    <a href="#">
+                                                        <figure>
+                                                            <img src="images/rooms1.jpg">
+                                                        </figure>
+                                                        <figcaption>
+                                                            <h5>simply Ipsum is simply
+                                                                    dummy text</h5>
+                                                            <p>simply simply is simply dummy,<br>
+                                                                text</p>
+                                                        </figcaption>
+                                                    </a>
+                                                </article>
+                                        </div>
+                                    </div>
+                                    <div class="slideee slideee3">
+                                        <div class="slideee-content">
+                                                <article>
+                                                    <a href="#">
+                                                        <figure>
+                                                            <img src="images/rooms3.jpg">
+                                                        </figure>
+                                                        <figcaption>
+                                                            <h5> Ipsum is simply
+                                                                    dummy text</h5>
+                                                            <p> EEEEED is simply dummy,<br>
+                                                                text</p>
+                                                        </figcaption>
+                                                    </a>
+                                                </article>
+                                                <article>
+                                                    <a href="#">
+                                                        <figure>
+                                                            <img src="images/rooms4.jpg">
+                                                        </figure>
+                                                        <figcaption>
+                                                            <h5>isis is simply
+                                                                    dummy text</h5>
+                                                            <p>EorE Ipsum is ,<br>
+                                                                text</p>
+                                                        </figcaption>
+                                                    </a>
+                                                </article>
+                                        </div>
+                                    </div>
+                                
+                            
+                                </div>
+                                    <div id="arrowww-right" class="arrowww"><img src="images/roll-right.png"></div>
+                            </div>
+                    </div>
+                </section>
+                <section id="section-3">
+                    <div id="restorant-info">
+                        <img src="images/root.jpg">
+                        <article>
+                            <h3>Lorem Ipsum is simply dummy text</h3>
+                            <p>Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.</p>
+                            <a href="#">+ Read more</a>
+                        </article>
+                    </div>
+                    <div id="galery">
+                        <div id="controler">
+                            <h4>Gallery</h4>
+                            
+                        </div>
+                        <div class="banner_slider">
+                            <div class="images"><img src="images/a.jpg"></div>
+                            <div class="images"><img src="images/b.jpg"></div>
+                            <div class="images"><img src="images/c.jpg"></div>
+                            <div class="images"><img src="images/d.jpg"></div>
+                            <div class="images"><img src="images/e.jpg"></div>
+                        </div>
+                    </div>
+                    <article>
+                        <h4>Get in touch</h4>
+                        <ul>
+                            <li>
+                                Business Club Center<br>
+                                5th Street 40993 New York
+                            </li>
+                            <li>
+                                +44 0123 4567
+                            </li>
+                            <li>
+                                Hello@psdfreebies.com
+                            </li>
+                            <li>
+                                www.psdfreebies.com
+                            </li>
+                        </ul>
+                    </article>
+                </section>
+
+            </div>
+            <div id="more-info">
+                <div id="subcribe">
+                        <span>Subcribe to</span>
+                        <h2>Newsletter</h2>
+                        <form method="GET" action="mail.php">
+                            <input type="email" placeholder="Enter Email Address">
+                            <input type="submit"  value="Submit">
+                        </form>
+                        <p>Sed neque sed ut nisi neque sed ut urna eu felis sit<br>
+                            amet.Spernatur aut odit aut fugit</p>
+                    </div>
+                
+                <div id="hottel-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221405.210736242!2d21.687370328810964!3d37.95603853507872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13592e5a77e43859%3A0x3b4a530132ece952!2sKazarma%20Lake%20Resort%20%26%20Spa!5e0!3m2!1sbg!2sbg!4v1571062810554!5m2!1sbg!2sbg"  height="375" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+            
+            <div id="aboutUS">
+                <article>
+                    <h3>About us</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                    <p>but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of </p>
+                </article>
+                <article>
+                        <h3>Blog</h3>
+                        <figure>
+                                <img src="images/sity.jpg">
+                            <figcaption>
+                                <h5>Lorem Ipsum is simply<br>
+                                        dummy text</h5>
+                                <p>Lorem Ipsum is simply dummy,<br>
+                                    text</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/sity.jpg">
+                        
+                            <figcaption>
+                                <h5>Lorem Ipsum is simply<br>
+                                        dummy text</h5>
+                                <p>Lorem Ipsum is simply dummy,<br>
+                                    text</p>
+                            </figcaption>
+                        </figure>
+                </article>
+                <article>
+                    <h3>Latest Tweets</h3>
+                    <span>"</span><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                    <span>"</span><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                </article>
+            </div>
+        </main>
+        <hr>
+        <footer>
+            <p>Всички права запазени. Хотел ООД 2019"</p>
+        </footer>
+    </div> 
+    </div>
+<script src="lib/jquery.min.js"></script>
+<script src="lib/angular/angular.min.js"></script>    
+<script src="scripts/jquery.datetimepicker.full.js"></script>
+<script src="scripts/script.js"></script>
+<script src="scripts/slick.js"></script>
+<script src="scripts/galery.js"></script>
+<script src="scripts/popup.js"></script>
+<script src="scripts/datetimepicker.js"></script>
+<script src="scripts/CustomerSays.js"></script>
+<script src="scripts/news.js"></script>
+</body>
+</html>
